@@ -1,0 +1,41 @@
+Símbolos HTML5:
+&lt; === sinal de menor.
+&gt; === sinal de maior.
+&le; === sinal de menor sublinhado.
+&ge; === sinal de maior sublinhado.
+&pound; sinal da moeda LIBRA.
+&yen; === sinal da moeda YENE.
+&euro; sinal da moeda EURO.
+&copy; === círculo com C no meio.
+&reg; === círculo com R no meio.
+&trade; === TM.
+&permil; === sinal de 1/1000.
+&sum; === sinal de soma em grego.
+&infin; === sinal do infinito.
+&times; === sinal de vezes 'X'.
+&plusmn; === sinal de mais ou menos.
+&oplus; === sinal de + dentro do círuclo.	
+&radic; === sinal de raiz.
+&ne; === sinal de diferente.
+&delta; === letra do alfabeto grego.
+&Delta; === letra do alfabeto grego.
+&lambda; === letra do alfabeto grego.
+&omega; === letra do alfabeto grego.
+&phi; === letra do alfabeto grego.
+&larr; === ceta pra esquerda.
+&rarr; === ceta pra direita.
+&uparrow; === ceta pra cima.
+&downarrow; === ceta pra baixa.
+&hArr; === cetas duplas.
+&harrw; === cetas duplas tortas.
+&spades; === naipe de espadas.
+&clubs; === naipe de paus.
+&hearts; === naipe de copas
+&diams; === naipe de ouros.
+
+tags de formatação:
+
+<sub> texto abaixo da linha</sub>
+<sup> texto em cima da linha</sup>
+<code> diz pro navegador que é um trecho de código</code>
+<pre> diz pro navegador que o conteúdo tá pré-formatado o que faz considerar espaços e enter dentro do conteúdo</pre>
