@@ -39,3 +39,5 @@ tags de formatação:
 <sup> texto em cima da linha</sup>
 <code> diz pro navegador que é um trecho de código</code>
 <pre> diz pro navegador que o conteúdo tá pré-formatado o que faz considerar espaços e enter dentro do conteúdo</pre>
+<em> diz pro navegador que o conteúdo tem um ênfase maior, por padrão adiciona a formatação itálica</em>
+<del> risca o conteúdo com um linha no meio do texto</del>
