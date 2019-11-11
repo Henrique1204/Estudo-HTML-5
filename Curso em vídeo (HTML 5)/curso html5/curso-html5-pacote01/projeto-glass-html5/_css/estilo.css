@@ -131,6 +131,31 @@ section#corpo{
     border-right: 1px solid #606060;
 }
 
+table#espec{
+    border: 1px solid #606060;
+    border-spacing: 0px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+table#espec td{
+    padding: 10px;
+    border-left: none!important;
+    color: white;
+}
+
+table#espec td.coluna1{
+    text-align: right;
+    background-color: #606060;
+    border: 1px solid #888;
+}
+
+table#espec td.coluna2{
+    text-align: left;
+    background-color: #888;
+    border: 1px solid #606060;
+}
+
 aside#lateral{
     width: 350px;
 }
