@@ -10,7 +10,7 @@ body{
 }
 
 div#interface{
-    width: 900px;
+    width: 1000px;
     padding: 10px;
     margin: -20px auto 0px;
     background-color: white;
@@ -43,7 +43,7 @@ header#cabeçalho h2{
 header#cabeçalho img#icone{
     position: absolute;
     top: 70px;
-    left: 1230px;
+    left: 1290px;
 }
 
 p{
@@ -115,4 +115,36 @@ nav#menu a{
 
 nav#menu a:hover{
     color: #ffffff;
+}
+
+/*Formatação do conteúdo*/
+
+div#conteudo{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+section#corpo{
+    width: 570px;
+    padding-right: 15px;
+    border-right: 1px solid #606060;
+}
+
+aside#lateral{
+    width: 350px;
+}
+
+footer#rodape{
+    border-top: 1px solid #606060;
+}
+
+footer#rodape p{
+    margin-bottom: 0px;
+    text-align: center;
+}
+
+footer#rodape a{
+    text-decoration: none;
+    color: black;
 }
