@@ -1,0 +1,23 @@
+body{
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(70, 142, 236);
+    font:normal 10pt Arial, sans-serif;
+}
+
+div{
+    width: 500px;
+    height: auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    box-shadow: 5px 5px 10px black;
+    border-radius: 10px;
+}

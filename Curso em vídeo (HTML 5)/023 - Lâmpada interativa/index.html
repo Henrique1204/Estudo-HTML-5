@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="estilo.css">
+    <script>
+        let inteira = true;
+        
+        function interruptor(acao){
+            
+            let h1 = document.getElementsByTagName('h1')[0];
+            let img = document.getElementsByTagName('img')[0];
+            
+            if(inteira){
+                if(acao == 'acender'){
+                    img.src = '../curso html5/curso-html5-pacote01/projeto-glass-html5/_imagens/lampada-acesa.jpg';
+                    h1.innerText = 'Lâmpada acessa';
+                }else if(acao == 'apagar'){
+                    img.src = '../curso html5/curso-html5-pacote01/projeto-glass-html5/_imagens/lampada-apagada.jpg';
+                    h1.innerText = 'Acenda a lâmpada';
+                }else{
+                    inteira = false;
+                    img.src = '../curso html5/curso-html5-pacote01/projeto-glass-html5/_imagens/lampada-quebrada.jpg';
+                    h1.innerText = 'Lâmpada quebrada, clique para trocar';
+                };
+            }else{
+                if(acao != 'acender' && acao != 'apagar'){
+                    img.src = '../curso html5/curso-html5-pacote01/projeto-glass-html5/_imagens/lampada-apagada.jpg';
+                    h1.innerText = 'Lâmpada trocada';
+                    inteira = true;
+                };
+            };
+        };
+    </script>
+    <title>Aula 23</title>
+</head>
+<body>
+    <div>
+        <h1>Acenda a lâmpada</h1>
+        <img src="../curso html5/curso-html5-pacote01/projeto-glass-html5/_imagens/lampada-apagada.jpg" alt="imagem de uma lãmpada lampada apagada" onmouseover="interruptor('acender')" onmouseout="interruptor('apagar')" onclick="interruptor()">
+    </div>
+</body>
+</html>
