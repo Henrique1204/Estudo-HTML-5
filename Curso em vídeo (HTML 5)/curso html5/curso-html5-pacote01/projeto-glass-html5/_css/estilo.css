@@ -138,6 +138,20 @@ table#espec{
     margin-right: auto;
 }
 
+table#espec caption{
+    color: #888;
+    font-size: 13pt;
+    font-weight: bolder;
+}
+
+table#espec caption span{
+    position: relative;
+    top: 3px;
+    left: 80px;
+    color: black;
+    font-size: 8pt;
+}
+
 table#espec td{
     padding: 10px;
     border-left: none!important;
@@ -145,6 +159,7 @@ table#espec td{
 }
 
 table#espec td.coluna1{
+    font-weight: bold;
     text-align: right;
     background-color: #606060;
     border: 1px solid #888;
