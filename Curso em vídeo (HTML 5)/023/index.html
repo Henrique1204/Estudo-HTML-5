@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Aula 23</title>
+    <script>
+        function interruptor(movimento){
+
+            let h1 = document.getElementsByTagName('h1')[0];
+            let img = document.getElementsByTagName('img')[0];
+            let acao = movimento;
+            
+            if(acao == 'acender'){
+                img.src = '../curso html5/curso-html5-pacote01/projeto-glass-html5/_imagens/lampada-acesa.jpg';
+                h1.innerText = 'Lâmpada acessa';
+            }else if(acao == 'apagar'){
+                img.src = '../curso html5/curso-html5-pacote01/projeto-glass-html5/_imagens/lampada-apagada.jpg';
+                h1.innerText = 'Acenda a lâmpada';
+            }else{
+                img.src = '../curso html5/curso-html5-pacote01/projeto-glass-html5/_imagens/lampada-quebrada.jpg';
+                h1.innerText = 'Lâmpada quebrada, vamos colocar outra no lugar...';
+            }
+        };
+    </script>
+</head>
+<body>
+    <h1>Acenda a lâmpada</h1>
+    <img src="../curso html5/curso-html5-pacote01/projeto-glass-html5/_imagens/lampada-apagada.jpg" alt="imagem de uma lãmpada lampada apagada" onmouseover="interruptor('acender')" onmouseout="interruptor('apagar')" onclick="interruptor()">
+</body>
+</html>
