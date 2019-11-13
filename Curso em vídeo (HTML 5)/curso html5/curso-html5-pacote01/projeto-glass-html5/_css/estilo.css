@@ -236,6 +236,10 @@ aside#lateral h2{
     color: white;
 }
 
+aside video{
+    width: 350px;
+}
+
 footer#rodape{
     border-top: 1px solid #606060;
 }
