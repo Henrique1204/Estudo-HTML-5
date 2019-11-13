@@ -1,4 +1,21 @@
 fieldset#sexo p{
-    text-indent: 0;
     margin: 0;
+}
+
+fieldset p{
+    display: flex;
+    align-items: center;
+    text-indent: 0;
+}
+
+fieldset label{
+    margin-right: 5px;
+}
+
+#cGrau{
+    height: 10px;
+}
+
+#mensagem p:nth-child(3){
+    align-items: flex-start;
 }
