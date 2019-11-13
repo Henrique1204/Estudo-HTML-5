@@ -4,7 +4,13 @@ section#conteudoEspec{
 }
 
 iframe#frameEspec{
-    width: 400px;
+    width: 410px;
     height: 280px;
     border: none;
+}
+
+area:focus{
+    outline: thin dotted;
+    outline: 0px auto -webkit-focus-ring-color;
+    outline-offset: 0px;
 }
