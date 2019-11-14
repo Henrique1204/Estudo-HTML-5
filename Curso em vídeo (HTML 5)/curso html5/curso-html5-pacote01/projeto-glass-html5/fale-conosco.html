@@ -36,8 +36,8 @@
                     <h3 class="direita">Atualizado em Nov/2019</h3>
                 </header>
                 <form method="post" id="fContato" action="mailto:contato@cursoemvideo.com">
-                    <fieldset>
-                        <legend id="usuario">Identificação do Usuário</legend>
+                    <fieldset id="usuario">
+                        <legend>Identificação do Usuário</legend>
                         <p><label for="cNome">Nome:</label><input type="text" name="tNome" id="cNome" size="20" maxlength="30" placeholder="Nome completo"/></p>
                         <p><label for="cSenha">Senha:</label><input type="password" name="tSenha" id="cSenha" size="8" maxlength="8" placeholder="8 dígitos"/></p>
                         <p><label for="cEmail">E-mail:</label><input type="email" name="tEmail" id="cEmail" size="20" maxlength="40"/></p>
@@ -75,18 +75,16 @@
                     <fieldset id="mensagem">
                         <legend>Mensagem do Usuário</legend>
                         <p><label for="cGrau">Grau de Urgência:</label> Mín<input type="range" name="tGrau" id="cGrau" min="0" max="10" step="2"/>Máx</p>
-                        <p><label for="cMsg">Mensagem:</label> <textarea name="tMsg" id="cMsg" cols="45" rows="5" placeholder="Dígite sua mensagem:"></textarea></p>
+                        <p><label for="cMsg">Mensagem:</label> <textarea name="tMsg" id="cMsg" cols="35" rows="5" placeholder="Dígite sua mensagem:"></textarea></p>
                     </fieldset>
                     <fieldset id="pedido">
                         <legend>Quero um Google Glass</legend>
-                        Gostaria de adquirir um Google Glass quando disponível
-                        <label for="">Cor:</label>
-                        <label for="">Quantidade:</label>
-                        Preço Total: R$
+                        <p><input type="checkbox" name="tPed" id="cPed" checked/><label for="cPed">Gostaria de adquirir um Google Glass quando disponível</label></p>
+                        <p><label for="cCor">Cor:</label><input type="color" name="tCor" id="cCor" value="#0000ff"/></p>
+                        <p oninput="calcTotal()"><label for="cQnt">Quantidade:</label><input type="number" name="tQnt" id="cQnt" min="0" max="5" value="0"/></p>
+                        <p><label for="cTot">Preço Total: R$</label><input type="text" name="tTot" id="cTot" placeholder="Total a pagar" readonly/></p>
                     </fieldset>
-                    
-                    
-                    [BOTÃO ENVIAR]
+                    <input type="image" src="_imagens/botao-enviar.png" name="tEnviar">
                 </form>
             </article>
         </section>

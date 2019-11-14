@@ -1,3 +1,40 @@
+form{
+    margin: auto;
+    width: 500px;
+}
+
+form>input{
+    margin-left: 185px;
+    outline: thin dotted;
+    outline: 0px auto -webkit-focus-ring-color;
+    outline-offset: 0px;
+}
+
+input, textarea{
+    font-family: sans-serif;
+    font-weight: normal;
+    font-size: 13pt;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+input:hover, textarea:hover{
+    background-color: #ddd;
+}
+
+legend{
+    color: #888;
+    font: normal 13pt 'sans-serfi';
+}
+
+fieldset{
+    margin: 20px;
+    border-color: #cecece;
+}
+
+fieldset#sexo{
+    width: 150px;
+}
+
 fieldset#sexo p{
     margin: 0;
 }
@@ -5,6 +42,7 @@ fieldset#sexo p{
 fieldset p{
     display: flex;
     align-items: center;
+    font-size: 13pt;
     text-indent: 0;
 }
 
@@ -18,4 +56,20 @@ fieldset label{
 
 #mensagem p:nth-child(3){
     align-items: flex-start;
+}
+
+fieldset#usuario{
+    background: url('../_imagens/icone-contato.png') no-repeat 95%;
+}
+
+fieldset#endereco{
+    background: url('../_imagens/icone-endereco.png') no-repeat 95%;
+}
+
+fieldset#mensagem{
+    background: url('../_imagens/icone-mensagem.png') no-repeat 95%;
+}
+
+fieldset#pedido{
+    background: url('../_imagens/icone-pagamento.png') no-repeat 95%;
 }
